@@ -1,0 +1,102 @@
+body{
+    position: relative;
+    background: #EBEBEB;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    top: 157px;
+}
+.center{
+    position: absolute;
+    width: 537.14px;
+    height: 380.24px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 3.83785px;
+}
+#imgTitle{
+    position: absolute;
+    width: 20.48px;
+    height: 22.84px;
+    left: 54.62px;
+    top: 75.16px;
+    
+    background: url(OIP.jpg);
+    mix-blend-mode: multiply;
+}
+#Title{
+    position: absolute;
+    width: 448.7px;
+    height: 38.57px;
+    left: 67.7px;
+    top: 56.19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.1902px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #000000;
+}
+#SubTitle{
+    position: absolute;
+    width: 488.85px;
+    height: 29.91px;
+    left: 35.42px;
+    top: 141.69px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3183px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;
+}
+.form-control input{
+    position: absolute;
+    width: 455.81px;
+    height: 43.3px;
+    left: 40.05px;
+    right: 40.05px;
+    text-align: center;
+    font-style: normal;
+} 
+.form-control #Code{
+    top: 224.35px;
+    background: #FFFFFF;
+    border: 0.787193px solid #000000;
+    border-radius: 2.36158px;
+    font-size: 20.467px;
+    font-weight: 600;
+}
+.form-control #Code:placeholder-shown{
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 20.467px;
+    line-height: 25px;
+    color: #000000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-control #Submit{
+    top: 292.05px;
+    width: 460px;
+    font-family: 'Inter';
+    background: #F82A15;
+    font-weight: 600;
+    font-size: 18.8926px;
+    line-height: 23px;
+    cursor: pointer;
+    color: #000000;
+    border: 0.787193px solid #FD0000;
+    border-radius: 0.787193px;
+}
+.form-control #Submit:hover{
+    background-color: #da2b18;
+}
