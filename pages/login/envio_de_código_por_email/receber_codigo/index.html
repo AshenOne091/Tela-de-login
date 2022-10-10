@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Validação do email</title>
+</head>
+    <body>
+
+        <!--Div central da pagina -->
+        <div class="center">
+
+            <!--Título principal dentro da div-->
+            <h1 id="Title">REDEFINA SUA SENHA/USUÁRIO</h1>
+
+            <!--Imagem perto do título-->
+            <img src="OIP 1.png" id="imgTitle">
+
+            <!--Subtítulo dentro da div-->
+            <h2 id="SubTitle">Digite no campo abaixo o código enviado ao seu email.</h2>
+
+            <!--Tag para formulário, usando o método get, por enquanto.-->
+            <form method="get" action="recadastro/index.html">
+
+                <!--Colocando todos os inputs dentro de divs para melhor controle de posicionamento-->
+                <!--Campo do "código" com atributo "required" para ter a certeza de que o campo será preenchido-->
+
+                <!--Div com o input referente ao campo "CÓDIGO",com placeholder escrito "CÓDIGO" com tamanho máximo de 10 caracteres e sem recomendação de autocompletar-->
+                <div class="form-control">
+                    <input type="text" name="Code" id="Code" placeholder="CÓDIGO" maxlength="10" autocomplete="off" required>
+                </div>
+
+                <!--Div com o botão específico para enviar a credencial do formulário previamente preenchido, validando-as-->                
+                <div class="form-control">
+                    <input type="submit" title="ENVIAR" id="Submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Esqueceu sua senha?</title>
+</head>
+    <body>
+
+        <!--Div central da pagina -->
+        <div class="center">
+
+            <!--Título principal dentro da div-->
+            <h1 id="Title">REDEFINA SUA SENHA/USUÁRIO</h1>
+
+            <!--Imagem que fica próxima ao título-->
+            <img src="OIP 1.png" id="Img">
+
+            <!--Subtítulo dentro da div-->
+            <h2 id="SecTitle">Digite o email da sua conta, ao clicar em enviar,se este for válido, um código será enviado para o seu email.</h2>
+
+            <!--Tag para formulário, usando o método get, por enquanto.-->
+            <form method="get" action="receber_codigo/index.html" id="form" class="form">
+
+                <!--Colocando todos os inputs dentro de divs para melhor controle de posicionamento-->
+                <!--Campo de "Email" com atributo "required" para ter a certeza de que será preenchido-->
+
+                <!--Div com o input referente ao campo "EMAIL",com placeholder escrito "EMAIL"-->
+                <div class="form-control">
+                    <input type="email" name="Email" id="Email" placeholder="EMAIL" required>
+                </div>
+
+                <!--Div com o botão específico para enviar as credenciais do formulário previamente preenchido validando-as-->
+                <div class="form-control">
+                    <input type="submit" title="ENVIAR" id="Submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

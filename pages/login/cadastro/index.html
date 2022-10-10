@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Cadastro</title>
+</head>
+    <body>
+        <!--Div central da pagina -->
+        <div class="center">
+
+            <!--Imagem perto do título-->
+            <img id="Img" src="OIP 1.png">
+
+            <!--Título principal dentro da div-->
+            <h1 id="Title">CADASTRO</h1>
+
+            <!--Tag para formulário, usando o método get, por enquanto.-->
+            <form method="get" action="../index.html">
+
+                <!--Colocando todos os inputs dentro de divs para melhor controle de posicionamento-->
+                <!--Todos os campos input possuem o atributo "required" para ter a certeza de que todos os campos estão sendo preenchidos-->
+
+                <!--Div com o input referente ao campo "Usuário",com placeholder escrito "USUÁRIO" e um tamanho mínimo do texto inserido de 4 caracteres-->
+                <div class="form-control">
+                    <input type="text" name="User" id="Usuario" placeholder="USUÁRIO" minlength="4" required>
+                </div>
+
+                <!--Div com o input referente ao campo "Email", com placeholder escrito "EMAIL"-->
+                <div class="form-control">
+                    <input type="email" name="Email" id="Email" placeholder="EMAIL" required>
+                </div>
+
+                <!--Div com o input referente ao campo "Senha", com placeholder escrito "Senha" com alguns espaços para centralizar com o resto da página, e com um tamanho mínimo de 6 caracteres-->
+                <div class="form-control">
+                    <input type="password" name="Pass" id="Senha" placeholder="SENHA" minlength="6" required>
+                </div>
+
+                <!--Div com o input referente ao campo "Confirmar Senha", com placeholder escrito "CONFIRME SUA SENHA" com alguns espaços para centralizar com o resto da página, e com um tamanho mínimo de 6 caracteres-->
+                <div class="form-control">
+                    <input type="password" name="ConfPass" id="CFSenha" placeholder="CONFIRME SUA SENHA" minlength="6" required>
+                </div>
+
+                <!--Div com o botão específico para enviar as credenciais do formulário previamente preenchido para o backend-->
+                <div class="form-control">
+                    <input type="submit" title="ENVIAR" id="REGISTRAR" value="REGISTRAR CONTA">
+                </div>
+
+                <!--Div referente a imagem que está inserida dentro do botão "REGISTRAR CONTA"-->
+                <div class="form-control">
+                    <img src="images 1.png" id="REGISTRAR_IMG">
+                </div>
+
+            </form>
+
+            <!--Formulário que terá como função retornar para a página "Login"-->
+            <form action="../index.html">
+                <button title="CADASTRO" id="RETORNAR_LOGIN">JÁ TEM UMA CONTA?</button>
+                <img src="OIP (2) 1.png" id="RETORNO_IMG">
+            </form>
+
+        </div>
+    </body>
+</html>

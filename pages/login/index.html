@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Login</title>
+</head>
+    <body>
+
+        <!--Div central da pagina -->
+        <div class="center">
+
+            <!--Título principal dentro da div-->
+            <h1 class="title">Login</h1>
+
+            <!--Imagem perto do título-->
+            <img src="OIP 1.png" class="TitleImg">
+
+            <!--Tag para formulário, usando o método get, por enquanto.-->
+            <form method="get">
+
+                <!--Colocando todos os inputs dentro de divs para melhor controle de posicionamento-->
+                <!--Todos os campos com atributo "required" para ter a certeza de que todos os campos estão sendo preenchidos-->
+
+                <!--Div com o input referente ao campo "Usuário",com placeholder escrito "USUÁRIO" e um tamanho mínimo do texto inserido de 4 caracteres-->
+                <div class="form-control">
+                    <input type="text" name="User" placeholder="USUÁRIO" minlength="4" id="Usuario" required>
+                </div>
+
+                <!--Div com o input referente ao campo "Senha", com placeholder escrito "Senha" com alguns espaços para centralizar com o resto da página, e com um tamanho mínimo de 6 caracteres-->
+                <div class="form-control">
+                    <input type="password" name="Pass" placeholder="SENHA  " minlength="6" id="Senha" required>
+                </div>
+
+                <!--Div com a tag 'a', referente ao link "Esqueceu sua senha/usuário?" que envia para outra página html-->
+                <div class="Logar">
+                    <a href="envio_de_código_por_email/index.html">Esqueceu sua senha/usuário?</a>
+                </div>
+
+                <!--Div com o botão específico para enviar as credenciais do formulário previamente preenchido validando-as-->
+                <div class="form-control">
+                    <input type="submit" title="ENVIAR" id="Login" value="ENTRAR">
+                </div>
+
+                <!--Div com a imagem que fica dentro do botão escrito "Entrar"-->
+                <div class="form-control">
+                    <img src="OIP (2) 1.png" class="LoginImg">
+                </div>
+            </form id="form" class="form">
+
+            <!--Div com o Botão "Cadastro" que levará a outra página html, fora do formulário principal pois o usuário deve poder clicar neste botão sem precisar preencher nada-->
+            <div class="button">
+                <form action="cadastro/index.html">
+                    <button>CADASTRO</button>
+
+                    <!--Imagem que fica dentro do botão "Cadastro"-->
+                    <img src="images 1.png" class="CadastroImg">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

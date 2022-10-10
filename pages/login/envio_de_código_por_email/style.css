@@ -1,0 +1,127 @@
+/* Importando a fonte utilizada no site */
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+/* Deixando o padding no 0 para poder posicionar melhor, além de marcar a fonte utilizada e uma alternativa caso a primeira não funcione */
+*{
+    padding: 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+/* Estilo do corpo do site */
+body{
+    background-color: #EBEBEB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 157px;
+}
+
+/* Estilo da div central do site*/
+.center{
+    position: relative;
+    width: 541px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 3.83785px;
+}
+
+/*Estilo do título "REDEFINA SUA SENHA/USUÁRIO" da página, localizado dentro da div*/
+h1{
+    position: absolute;
+    width: 448.93px;
+    height: 38.59px;
+    left: 67.73px;
+    top: 45.22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.2033px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+/*Estilo do subtítulo "Digite o email da sua conta, ao clicar em enviar,se este for válido, um código será enviado para o seu email." do site*/
+#SecTitle{
+    position: absolute;
+    width: 545.81px;
+    height: 62.22px;
+    left: 0px;
+    top: 138.62px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.9024px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/*Estilo da imagem ao lado do título "REDEFINA SUA SENHA/USUÁRIO" da página*/
+#Img{
+    position: absolute;
+    width: 20.48px;
+    height: 22.84px;
+    left: 49.62px;
+    top: 65.16px;
+    
+    background: url(OIP.jpg);
+    mix-blend-mode: multiply;
+}
+
+/*Estilo dos campos do formulário do site*/
+.form-control input{
+    position: absolute;
+    width: 460px;
+    height: 43.32px;
+    left: 40.05px;
+    right: 40.05px;
+    top: 292.2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.9024px;
+    text-align: center;
+}
+
+/*Estilo específico do campo "EMAIL"*/
+.form-control #Email{
+    top: 224.47px;
+    border: 0.8px solid #000000;
+    border-radius: 2px;
+}
+
+/*Estilo específico do placeholder do campo "EMAIL"*/
+.form-control #Email:placeholder-shown{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20.px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/*Estilo do botão "ENVIAR" do site*/
+.form-control #Submit{
+    width: 463px;
+    color: #000000;
+    background: #F82A15;
+    border: 0.787602px solid #FD0000;
+    border-radius: 0.787602px;
+    cursor: pointer;
+}
+
+/*Estilo do botão "ENVIAR" do site ao passar com o mouse por cima dele*/
+.form-control #Submit:hover{
+    background-color: #da2b18;
+}
+
+

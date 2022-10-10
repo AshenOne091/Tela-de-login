@@ -1,0 +1,180 @@
+/* Importando a fonte utilizada no site */
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+/* Deixando o padding no 0 para poder posicionar melhor, além de marcar a fonte utilizada e uma alternativa caso a primeira não funcione */
+*{
+    padding: 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+
+/* Estilo do corpo do site */
+body {
+    background-color: #EBEBEB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+
+
+/* Estilo da div central do site*/
+.center {
+    position: relative;
+    width: 515.89px;
+    height: 471.93px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 3.83785px;
+}
+
+
+/*Estilo do título "Login" da página, localizado dentro da div*/
+h1{
+    position: absolute;
+    width: 100.55px;
+    height: 37px;
+    left: 215px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.7028px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+
+/*Estilo da imagem ao lado do título "Login" da página*/
+.TitleImg{
+    position: absolute;
+    width: 21.49px;
+    height: 22.26px;
+    left: 179px;
+    top: 62px;
+    background: url(OIP.jpg);
+    mix-blend-mode: multiply;
+}
+
+/*Estilo dos campos do formulário do site*/
+.form-control input{
+    position: absolute;
+    width: 435px;
+    height: 42.22px;
+    left: 40.05px;
+    right: 40.05px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20.467px;
+    background: #FFFFFF;
+    border: 0.76757px solid #000000;
+    border-radius: 2.30271px;
+}
+
+/*Estilo específico do campo Usuário*/
+.form-control #Usuario{
+    top: 142px;
+}   
+
+/*Estilo específico do campo Senha*/
+.form-control #Senha {
+    top: 212px;
+}
+
+/*Estilo específico do placeholder dos campos de credeciais*/
+.form-control input:placeholder-shown{
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18.4217px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+/*Estilo do link referente ao texto "Esqueceu sua senha/usuário"?*/
+.Logar a{
+    position: absolute;
+    width: 190.24px;
+    height: 9.98px;
+    left: 42.22px;
+    top: 272.49px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5136px;
+    line-height: 14px;
+    text-decoration-line: none;
+    text-align: center;
+    color: #144999;
+}
+
+/*Estilo do texto "Esqueceu sua senha/usuário?" ao passar o mouse por cima */
+.Logar a:hover{
+    text-decoration-line: underline;
+}
+
+/*Estilo referente ao botão "Entrar" do site*/
+.form-control #Login{
+    top: 332.36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background: #44e0ff;
+    border: 2px solid #44e0ff;
+    border-radius: 1px;
+}
+
+/*Estilo referente ao botão "Cadastro" do site*/
+.button button{
+    position: absolute;
+    width: 435px;
+    height: 42.22px;
+    left: 40.05px;
+    top: 389.16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.467px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background: #F82A15;
+    border: 0.76757px solid #F82A15;
+    border-radius: 0.76757px;
+}
+
+/*Estilo do botão "Entrar" ao passar com o mouse por cima dele*/
+.form-control #Login:hover{
+    background-color: #3badc4;
+    border-color: #3badc4;
+}
+/*Estilo do botão "Cadastro" ao passar com o mouse por cima dele*/
+.button button:hover{
+    background-color: #da2b18;
+}
+
+/*Estilo da imagem localizada dentro do botão "Entrar"*/
+.LoginImg{
+    position: absolute;
+    width: 23.79px;
+    height: 24.56px;
+    left: 74.45px;
+    top: 343.1px;
+    mix-blend-mode: darken;
+    backdrop-filter: blur(3.07028px);
+}
+
+/*Estilo da imagem localizada dentro do botão "Cadastro"*/
+.CadastroImg{
+    position: absolute;
+    width: 28.71px;
+    height: 26.1px;
+    left: 74.45px;
+    top: 393.76px;
+    background: url(images.png), url(images.png);
+    mix-blend-mode: darken;
+}
